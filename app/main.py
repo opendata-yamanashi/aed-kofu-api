@@ -4,11 +4,16 @@ from fastapi import FastAPI
 from model import AED_Data
 from pydantic import BaseModel, Field
 from typing import List
+import os
 
 yA = Yamanashi_AED()
 yA.create_df()
 
-app = FastAPI()
+root_path = os.getenv("ROOT_PATH", "")
+app = FastAPI(
+    title="AED設置施設一覧(甲府市施設) API",
+    root_path=root_path
+)
 
 @app.get("/")
 def hello():
