@@ -1,4 +1,7 @@
 # AED設置施設一覧(甲府市施設) API
+[![Testing](https://github.com/opendata-yamanashi/aed-kofu-api/actions/workflows/test.yml/badge.svg)](https://github.com/opendata-yamanashi/aed-kofu-api/actions/workflows/test.yml)
+[![Deploy](https://github.com/opendata-yamanashi/aed-kofu-api/actions/workflows/deploy.yml/badge.svg)](https://github.com/opendata-yamanashi/aed-kofu-api/actions/workflows/deploy.yml)
+
 AED設置施設（甲府市施設）
 
 ## 出典:
