@@ -7,7 +7,7 @@ import neologdn
 import re
 
 class Yamanashi_AED():
-    BASE_DIR = Path(__file__).absolute().parent.parent
+    BASE_DIR = Path(__file__).absolute().parent
     DATA_DIR = BASE_DIR / "data"
 
     def __init__(self):
